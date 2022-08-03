@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+	GPL Theme Plugin
+	</title>
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style>
+      img{
+      float:left;
+      padding: 30px;
+      height: 75px;  
+      width: 290px;  
+    } 
+    
+body {
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  padding: 14px 27px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: blue;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f0f8ff;
+  width: 100%;
+  left: 0;
+  box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content .header {
+  background: slateblue;
+  padding: 16px;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  background-color:#f8f8ff;
+  height: 250px;
+}
+
+.column a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.column a:hover {
+  background-color: #ddd;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    height: auto;
+  }
+}
+    img{
+      float:left;
+      padding: 60px;
+      height: 75px;  
+      width: 290px;  
+    } 
+  
+.header {
+  padding: 50px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 100px;
+}
+		
+		
+		#navlist {
+			background-color:#0074D9;
+			position: absolute;
+			width: 100%;
+		}
+		
+		
+		#navlist a {
+			float:left;
+			display: block;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 15px;
+			text-decoration: none;
+			font-size: 15px;
+		}
+		.navlist-right{
+			float:right;
+		}
+
+		
+		#navlist a:hover {
+			background-color: #ddd;
+			color: black;
+		}
+		
+		.search input[type=text]{
+			width:300px;
+			height:25px;
+			border-radius:25px;
+			border: none;
+
+		}
+		
+		.search{
+			float:right;
+			margin:7px;
+
+		}
+		
+		.search button{
+			background-color: #0074D9;
+			color: #f2f2f2;
+			float: right;
+      padding: 15px 25px;
+      margin-right: 13px;
+			font-size: 11px;
+			border: none;
+			cursor: pointer;
+		}
+    .button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 50px 30px;
+  text-align: right;
+  float:right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px 5px;
+  transition-duration: 0.5ms;
+  cursor: pointer;
+}
+
+    .button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+    .container .btn {
+  position: absolute;
+  top: 110%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #BCA900;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+    }
+    .container .btn:hover {
+  background-color: blueviolet;
+    }
+.columns {
+  float:left;
+  margin-left: 90px;
+  width: 33.3%;
+  padding: 44px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 50;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px 35px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+.mySlides {display:none;}
+ {
+   background:lightsalmon;
+    font-family:book antiqua;
+    font-sixe:12px;
+ }
+    .yellow-div {
+  background-color:yellowgreen;
+  width: 27cm;
+  padding: 25px;
+  border: 3px solid black;
+  margin:100px;
+}
+	</style>
+<style>
+
+html{
+	background-color: #eaf0f2;
+}
+
+header h1{
+	font: normal 32px/1.5 'Open Sans', sans-serif;
+	color: #3F71AE;
+	padding-bottom: 16px;
+}
+
+header h2{
+	color: #F05283;
+}
+
+header span{
+	color: #3F71EA;
+}
+
+
+footer{
+	position: fixed;
+	bottom: 0;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+	background-color: #2c292f;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 30%;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed .footer-left img{
+	width: 70%;
+  padding:38px;
+}
+
+.footer-distributed h3 span{
+	color:  #e0ac1c;
+}
+
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #e0ac1c;
+	text-decoration: none;;
+}
+
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+</style>	
+</head>
+
+<body>
+  
+	<div id="navlist">
+		<a href="#">HOME</a>
+		<a href="#">OUR PRODUCTS</a>
+		<a href="#">JOIN MEMBERSHIP</a>
+		<a href="#">ABOUT US</a>
+		<a href="#">CHANCELOG/UPDATES </a>
+		
+
+		<div class="search">
+			
+			<form action="#">
+				<input type="text"
+					placeholder=" Search"
+					name="search">
+				<button>
+					<i class="fa fa-search"
+						style="font-size: 18px;">
+					</i>
+				</button>
+			</form>
+		</div>
+	</div>
+  <img align="left" src="data:image/png;base64,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" class="rounded" alt="Cinque Terre" width="200" height="80"><br><br><br>
+  <button class="button button1">LOGIN</button>
+<button class="button button2">CART/$0.0</button><br><br><br><br><br><br><br><br><br>
+  <div class="navbar">
+  <a href="#allproducts">ALL PRODUCTS</a>
+  <a href="#PREMIUM MEMBERSHIP PLAN">PREMIUM MEMBERSHIP PLAN</a>
+  <a href="#NEWS">NEWS</a>
+  <a href="#FREEMEMBERSHIP">FREE MEMBERSHIP</a>
+  <div class="dropdown">
+    <button class="dropbtn">THEME
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <div class="header">
+        <h2>MEGA!!</h2>
+      </div>   
+      <div class="row">
+        <div class="column">
+          <h3>WOOCOMMERCE THEME</h3>
+          <a href="#">BLOG<</a>
+          <a href="#">NEWS THEME</a>
+          <a href="#">BUDDYPRESS THEME</a>
+          <a href="#">CORPORATE<</a>
+          <a href="#">CREATIVE<</a>
+          <a href="#">CSS IGNITER<</a>
+          <a href="#">HOTEL<</a>
+        </div>
+        <div class="column">
+          <h3>EDUCATION</h3>
+          <a href="#">E-COMMERCE</a>
+          <a href="#">ELEGANT THEME</a>
+          <a href="#">FINANCE</a>
+          <a href="#">JOB BOARD</a>
+          <a href="#">MEDICAL</a>
+          <a href="#">MULTI VENDOR</a>
+          <a href="#">MULTIPURPOSE</a>
+          <a href="#">MATRIMONIAL</a>
+        </div>
+        <div class="column">
+          <h3>RESTAURENT</h3>
+          <a href="#">E-COMMERCE</a>
+          <a href="#">THEMIFY</a>
+          <a href="#">ITHEMES</a>
+          <a href="#">SEO</a>
+          <a href="#">TRAVEL</a>
+          <a href="#">WOOCOMMERCE</a>
+          <a href="#">REAL ESTATE</a>
+        </div>
+      </div>
+    </div>
+  </div> 
+<a href="#WOOCOMMERCE">WOOCOMMERCE</a>    
+<a href="#PLUGIN">PLUGIN</a>
+<a href="#FAQ">FAQ</a>
+</div>
+  <div class="container">
+  <img src="https://gplthemeplugin.com/wp-content/uploads/2021/10/WhatsApp-Image-2021-10-29-at-3.01.49-PM.jpeg" alt="HTML5 Icon" style="width:33cm;height:15cm;">
+   <button class="btn">FREE MEMBERSHIP PLAN</button>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">MONTHLY MEMBERSHIP PLAN!</li>
+    <li class="grey"><b>$10</b>monthly </li>
+    <li>ACCESS ALL THE THEMES AND PLUGINS</li>
+    <li>20 DOWNLOAD DAILY</li>
+    <li>FREQUENT UPDATES</li>
+    <li>ACCESS TO NEW RELEASES</li>
+     <li>DIRECT DOWNLOAD LINKS</li>
+      <li>UNLIMITED DOMAIN USAGE</li>
+    <li class="grey"><a href="#" class="button">JOIN NOW!</a></li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header" style="background-color:#04AA6D">YEARLY MEMBERSHIP PLAN</li>
+    <li class="grey"><b>$ 60</b>Monthly</li>
+    <li>ACCESS ALL THEMES AND PLUGINS</li>
+    <li>UNLIMITED DOWNLOAD DAILY</li>
+    <li>FREQUENT UPDATES</li>
+    <li>ACCESS TO NEW RELEASES</li>
+    <li>DIRECT DOWNLOAD LINKS</li>
+    <li>UNLIMITED DOMAIN USAGE</li>
+    <li class="grey"><a href="#" class="button">JOIN NOW!</a></li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">6 MONTHS MEMBERSHIP PLAN</li>
+    <li class="grey"><b>$30</b> 6Months</li>
+    <li>ACCESS ALL THEMES AND PLUGINS</li>
+    <li>30 DOWNLOADED DAILY</li>
+    <li>FREQUENT UPDATES</li>
+    <li>ACCESS TO NEW RELEASES</li>
+    <li>DIRECT DOWNLOADED LINKS</li>
+     <li>UNLIMITED DOMAIN USAGE</li>
+    <li class="grey"><a href="#" class="button">JOIN NOW!</a></li>
+  </ul>
+</div>
+<body>
+
+<center><h1 class="w3-center"><i><u>BRANDS</u></i></h1>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="https://gplthemeplugin.com/wp-content/uploads/elementor/thumbs/m-code-canyon-280x280-1-247x247-1-ozumamp28gkf7qpbkws0rq6ss8tclnqo6ox2wherao.jpg" style="width:70%">
+  <img class="mySlides" src="https://gplthemeplugin.com/wp-content/uploads/elementor/thumbs/m-elementor-280x280-1-247x247-1-ozumamp28gkf7qpbkws0rq6ss8tclnqo6ox2wherao.jpg" style="width:70%">
+  <img  class="mySlides" src="https://gplthemeplugin.com/wp-content/uploads/elementor/thumbs/array-1-247x247-1-ozumamp28gkf7qpbkws0rq6ss8tclnqo6ox2wherao.jpg" style="width:70%">
+   <img  class="mySlides" src="https://gplthemeplugin.com/wp-content/uploads/elementor/thumbs/Themify-Builder-ozumalr81mj4w4qoqede78fc6uxzdymxuk9lf7g5gw.jpg" style="width:70%">
+  <img  class="mySlides" src="https://gplthemeplugin.com/wp-content/uploads/elementor/thumbs/ninja-forms-247x247-1-ozumamp28gkf7qpbkws0rq6ss8tclnqo6ox2wherao.jpg" style="width:70%">
+    <img  class="mySlides" src="https://gplthemeplugin.com/wp-content/uploads/elementor/thumbs/wpml-247x247-1-ozumamp28gkf7qpbkws0rq6ss8tclnqo6ox2wherao.jpg" style="width:70%">  
+</div>
+</center>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000); 
+}
+</script>
+</body><br><br><br><br><br><br><br><br><br>
+  <br><br>
+<div class="yellow-div">
+<h1>WHAT ARE GPL THEME AND GPL PLUGIN? WHICH ARE THE BEST GPL THEMES AND PLUGINS? SHOULD WE USE THESE?
+</h1>
+<h3>GPL (General Public License) is also called as GNU GPL. It is the most common use of free license for selling free license software or digital products. This license allows people to sell this software or use or redistribute this software.
+ 
+  <img align="left"  src="https://gplthemeplugin.com/wp-content/uploads/2020/08/What-are-GPL-Themes-and-plugins-2.jpg" alt="HTML5 Icon" style="width:10cm;height:8cm;">
+
+WordPress is also released under a gpl license, it is open source software you can modify it and use it anywhere without fear.
+
+In this article, we will tell you about gpl theme and GPL plugin. GPL themes and plugins are the products which comes under Gpl licence means you are free to redistribute that product.
+
+The GPL theme and GPL plugin which we are showing on our website are developed by the third party and we have purchased the pro versions of these products and we are sharing these gpl theme and gpl plugin at a very cheap price as compared to the original author or website.</h3>
+  
+<h3>When any new update comes, we update our themes and plugins. We don’t modify these themes and plugins. All the products at gplthemeplugin are 100% scanned with Norton and verified by McAfee.
+glp theme
+
+If you are a new blogger then it is very hard to purchase premium themes and plugins. For them gplthemeplugin is the best alternative, you can purchase premium themes and plugins at very cheap prices.
+
+All the gpl themes and gpl plugins on gplthemeplugin are 100% original and scanned by Norton and verified by Mcafee. You can use this gpl theme and plugin on your WordPress website without any fear.
+
+You can use these themes and plugins on the unlimited website for a single purchase. We purchase these themes and plugins and then distribute them to consumers at very cheap prices.
+
+Here on this website, you will find more than 4000 premium WordPress themes and plugins. You can purchase a single product for just $3.49, you can also purchase the membership. When you purchase a membership then you can download an unlimited number of products.<h3>
+<h2><i>Now I tell you most popular premium plugins which you can buy from here as GPL plugin.</h2></i>
+<h3> 1. Wp rocket– everybody wants a fast website, if you want to rank wprocketyour website on top pages of Google then your website should load fast. Wp rocket is a cache plugin which helps your website to load fast. It optimizes your website images and all CSS and HTML files and arranges them in a systematic manner. Every blogger should use wp rocket to make their website fast and it will defiantly help them in getting a good ranking on Google search results.</h3>
+<h3> 2. Elementor pro– it is the most powerful and best page builder for WordPress websites. If you are making a WordPress website and want to design it, Elementor Pro is the best option. It is very easy to use and you can easily make a wonderful website with it. You can get it at just $3.99 from GPL theme plugin.</h3>
+<h3>3.Yoast SEO premium– most of the website owners are using Yoast SEO for the on-page SEO of their website. But if you will try Yoast SEO premium, it will defiantly change your life and increase your website traffic. In this, you will get all premium tools to make your website SEO-friendly.</h3>
+
+    <img align="right" src="https://gplthemeplugin.com/wp-content/uploads/2020/08/gpl-510x396.jpg" alt="" 
+style="width: 6cm;height:5cm;">
+<h3> 4. WordPress automatic plugin– this plugin reduces your time to share your post and articles on social media. If you install this plugin on your WordPress website then it will perform all social sharing on automation. You just give the instruction on this plugin and rest of things it will perform itself. You can buy it from codecanyon for $49.</h3>
+<h3> 5. woocommerce booking– this plugin helps your customer book reservations, they also apply for an appointment with your need. This plugin helps you to perform all the work on automation. You just install this plugin on your website and rest. You can buy this plugin for $249 from the original author but you can buy this plugin for $3.49 on gplthemeplugin.</h3>
+<h3> 6. this is a premium contact form plugin, this helps your website to contact your customer. Do you still don’t know why your website needs a contact form? Contact form is like a bridge between you and your customer. This plugin is now the best contact form in the market.</h3>
+<h2><b><i>Now I tell you about premium WordPress theme which you can find here as gpl theme.</h2></b></i>
+    <h3>1. Flatsome theme– it is one of the most selling WordPress themes onflatsome theme themeforest. This theme comes with lots of features and you can customize your website and make a masterpiece with it. This theme is very fast and you can customize it easily. You can buy this theme at a very cheap price and you will also get regular updates.</h3>
+    <h3>2. Avada theme– this is the most selling theme on ThemeForest with more than 600k selling. This is the favorite of most of the bloggers, it is very easy to customize. There is more than 68 demo site, you just install the demo and your website is ready. You can make a taxi website, an eCommerce, a restaurant website, or a yoga website. You can make all types of websites.</h3>
+  <h3>3. Porto multipurpose theme– this is one of my favorite themes. It is a multipurpose theme; you can make any type of website with it. It has many pre-made demos, which you can use on your website. Porto theme costs you very low as compared to buying from the original author. GPL theme is giving you a great discount.</h3>
+    <h3>4. Enfold responsive multipurpose theme– it is one of the most enfold themepopular multipurpose themes. There are many pre-made demos of different websites. You can make any type of website with the help of enfolding. With gpl theme, you will get a great discount on this theme.</h3>
+    <h3> 5. Betheme multipurpose theme– if you buy this theme then it will be great for you. You can make any type of website with this theme. You can make a restaurant website, a taxi website, a construction website or many more. It is super easy to customize this theme.</h3>
+ <i><h3>These are some themes and plugins which you can buy from this website at a very low price. You can also buy membership plans and download an unlimited number of themes and plugins.
+
+GPL themes and GPL plugins are best for a new blogger. As a student, it is hard to purchase premium themes and plugins at high prices. So Gplthemeplugin.com is the best place to purchase premium themes and plugins at a very low price.
+
+If you want to purchase gpl theme or gpl plugin or wordpress gpl theme..</h3><i>
+</div> 
+<body>
+
+		<footer class="footer-distributed">
+
+			<div class="footer-left">
+          <img src="https://gplthemeplugin.com/wp-content/uploads/2020/06/GPL-2-1.png" style="width:79%">
+        
+				<p class="footer-links">
+					<a href="#">Home</a>
+					|
+					<a href="#">Blog</a>
+					|
+					<a href="#">About</a>
+					|
+					<a href="#">Contact</a>
+				</p>
+
+				<p class="footer-company-name">Copyright 2022 © GPL Theme plugin</p>
+			</div>
+
+			<div class="footer-center">
+					<div>
+					<i class="fa fa-map-marker"></i>
+					  <p><span>309 - Rupa Solitaire,
+						 Bldg. No. A - 1, Sector - 1</span>
+						Mahape, Navi Mumbai - 400710</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+91 22-27782183</p>
+				</div>
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@eduonix.com">
+Admin@gplthemeplugin.com</a></p>
+				</div>
+				</div>
+			</div>
+			<div class="footer-right">
+				<i><p class="footer-company-about">
+					<span>DISCLAIMER</span>
+				All the themes and plugins on this website are developed by third party developer and distributed under GPL (General Public License).
+
+
+GPL theme plugin is not affiliating any product or showing ownership. All the products are developed by third party developers..</p></i>
+				<div class="footer-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-youtube"></i></a>
+				</div>
+			</div>
+		</footer>
+</body>
+</body>
+</html>				
